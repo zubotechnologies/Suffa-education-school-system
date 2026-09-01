@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suffa Education School — Where Learning Inspires a Brighter Future. Private education excellence since 2009.">
+  <title>Suffa Education School | Academic Excellence, Character & Innovation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       HEADER
+       ========================================================================= -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <!-- Logo -->
+      <a href="index.html" class="header__logo" aria-label="Suffa Education School - Home">
+        <img src="assets/images/logo.svg" alt="Suffa Education School logo" class="header__logo-image">
+        <span class="header__logo-text">Suffa Education</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="header__nav nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+          <li><a href="about.html" class="nav__link">About Us</a></li>
+          <li><a href="academics.html" class="nav__link">Academics</a></li>
+          <li><a href="admissions.html" class="nav__link">Admissions</a></li>
+          <li><a href="faculty.html" class="nav__link">Faculty</a></li>
+          <li><a href="campus.html" class="nav__link">Campus & Facilities</a></li>
+          <li><a href="student-life.html" class="nav__link">Student Life</a></li>
+          <li><a href="news.html" class="nav__link">News & Events</a></li>
+        </ul>
+      </nav>
+
+      <!-- Actions -->
+      <div class="header__actions">
+        <a href="contact.html" class="btn btn--secondary btn--sm header__contact">Contact</a>
+        <a href="admissions.html" class="btn btn--primary btn--sm header__apply">Apply Now</a>
+        <button class="header__profile" aria-label="User profile">
+          <svg class="icon icon--md" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M12 14c-5 0-7 3-7 4v2h14v-2c0-1-2-4-7-4z"/></svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span class="mobile-menu-btn__line"></span>
+        <span class="mobile-menu-btn__line"></span>
+        <span class="mobile-menu-btn__line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" aria-hidden="true"></div>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+      <ul class="mobile-menu__list">
+        <li><a href="index.html" class="mobile-menu__link">Home</a></li>
+        <li><a href="about.html" class="mobile-menu__link">About Us</a></li>
+        <li><a href="academics.html" class="mobile-menu__link">Academics</a></li>
+        <li><a href="admissions.html" class="mobile-menu__link">Admissions</a></li>
+        <li><a href="faculty.html" class="mobile-menu__link">Faculty</a></li>
+        <li><a href="campus.html" class="mobile-menu__link">Campus & Facilities</a></li>
+        <li><a href="student-life.html" class="mobile-menu__link">Student Life</a></li>
+        <li><a href="news.html" class="mobile-menu__link">News & Events</a></li>
+        <li><a href="gallery.html" class="mobile-menu__link">Gallery</a></li>
+        <li><a href="contact.html" class="mobile-menu__link">Contact</a></li>
+        <li><a href="faq.html" class="mobile-menu__link">FAQ</a></li>
+      </ul>
+      <div class="mobile-menu__actions">
+        <a href="contact.html" class="btn btn--secondary btn--lg mobile-menu__contact">Contact Us</a>
+        <a href="admissions.html" class="btn btn--primary btn--lg mobile-menu__apply">Apply Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <!-- =========================================================================
+         HERO SECTION
+         ========================================================================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__background">
+        <img src="assets/images/hero-school.jpg" alt="Students in uniform walking on campus pathway toward school building" class="hero__image">
+        <div class="hero__gradient"></div>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__text reveal stagger-1">
+          <span class="eyebrow">ACADEMIC EXCELLENCE</span>
+          <h1 id="hero-title" class="hero__headline">Where Learning Inspires a <em>Brighter Future</em></h1>
+          <p class="hero__description lead">At Suffa Education School, we nurture curious minds, build strong character, and prepare students for a changing world through rigorous academics and values-based learning.</p>
+          <div class="hero__ctas flex gap-4">
+            <a href="about.html" class="btn btn--primary btn--lg">Explore Our School →</a>
+            <a href="admissions.html" class="btn btn--secondary btn--lg">Admissions Open</a>
+          </div>
+          <div class="hero__trust flex gap-6" style="margin-top: var(--space-8);">
+            <span class="hero__value">EXCELLENCE</span>
+            <span class="hero__divider" aria-hidden="true">♦</span>
+            <span class="hero__value">CHARACTER</span>
+            <span class="hero__divider" aria-hidden="true">♦</span>
+            <span class="hero__value">INNOVATION</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <svg class="icon icon--md" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         STATISTICS STRIP
+         ========================================================================= -->
+    <section class="stats section section--dark" aria-labelledby="stats-title">
+      <div class="container">
+        <div class="stats__header reveal">
+          <span class="section-label">Why Families Choose Suffa</span>
+        </div>
+        <div class="grid grid-4 stats__grid">
+          <div class="stat reveal stagger-1">
+            <div class="stat__number" data-count="15" data-suffix="+"></div>
+            <div class="stat__label">Years of Excellence</div>
+          </div>
+          <div class="stat reveal stagger-2">
+            <div class="stat__number" data-count="500" data-suffix="+"></div>
+            <div class="stat__label">Enrolled Students</div>
+          </div>
+          <div class="stat reveal stagger-3">
+            <div class="stat__number" data-count="30" data-suffix="+"></div>
+            <div class="stat__label">Dedicated Educators</div>
+          </div>
+          <div class="stat reveal stagger-4">
+            <div class="stat__number" data-count="95" data-suffix="%"></div>
+            <div class="stat__label">Parent Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ABOUT SPLIT SECTION
+         ========================================================================= -->
+    <section class="section section--primary" aria-labelledby="about-title">
+      <div class="container">
+        <div class="grid grid-2 about-split">
+          <!-- Left: Image with floating caption -->
+          <div class="about-split__image reveal stagger-1">
+            <div class="about-split__image-wrapper">
+              <img src="assets/images/students-classroom.jpg" alt="Two students collaborating on a science experiment in classroom" class="card__image">
+              <div class="about-split__caption card">
+                <svg class="icon icon--lg card__badge" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+                <p class="card__text" style="margin: 0;">Fostering curiosity every single day.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="about-split__content reveal stagger-2">
+            <span class="eyebrow">ABOUT SUFFA</span>
+            <h2 id="about-title" class="about-split__heading">Education That Builds More Than Knowledge</h2>
+            <p class="lead" style="margin-bottom: var(--space-6);">Founded in 2009, Suffa Education School has grown from a modest beginning into a beacon of academic excellence. Our approach blends time-honored educational principles with innovative teaching methodologies, ensuring every student discovers their unique potential.</p>
+            <ul class="about-split__features">
+              <li class="about-split__feature flex gap-3">
+                <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Academic Excellence</strong> — Rigorous curriculum that challenges and inspires</span>
+              </li>
+              <li class="about-split__feature flex gap-3">
+                <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Character & Confidence</strong> — Values-based education shaping responsible citizens</span>
+              </li>
+              <li class="about-split__feature flex gap-3">
+                <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                <span><strong>Future-Ready Learning</strong> — Technology integration and 21st-century skills</span>
+              </li>
+            </ul>
+            <a href="about.html" class="card__link" style="margin-top: var(--space-6);">Discover Our Philosophy →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         PRINCIPAL'S MESSAGE
+         ========================================================================= -->
+    <section class="section section--alt" aria-labelledby="principal-title">
+      <div class="container">
+        <div class="grid grid-2 principal">
+          <!-- Left: Portrait -->
+          <div class="principal__image reveal stagger-1">
+            <img src="assets/images/principal.jpg" alt="Dr. Sarah Jenkins, Principal of Suffa Education School" class="principal__portrait">
+          </div>
+
+          <!-- Right: Message -->
+          <div class="principal__content reveal stagger-2">
+            <div class="principal__quote-mark" aria-hidden="true">″</div>
+            <span class="eyebrow">LEADERSHIP</span>
+            <h2 id="principal-title" class="principal__heading">A Message From Our Principal</h2>
+            <blockquote class="principal__quote">
+              <p>&ldquo;Education is not merely about academic achievement — it is about igniting the spark of curiosity, nurturing the courage to question, and building the character to persevere. At Suffa, every child is known, valued, and challenged to become their best self.&rdquo;</p>
+            </blockquote>
+            <div class="principal__signature">
+              <p class="principal__name">Dr. Sarah Jenkins</p>
+              <p class="principal__role">Principal, Suffa Education School</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         CTA BAND
+         ========================================================================= -->
+    <section class="section section--dark cta-band" aria-labelledby="cta-title">
+      <div class="container cta-band__inner reveal">
+        <h2 id="cta-title" class="cta-band__heading">Ready to Begin Your Child's Journey?</h2>
+        <p class="cta-band__text">Join a community where excellence meets empathy, and every student thrives.</p>
+        <div class="cta-band__actions flex gap-4 justify-center">
+          <a href="admissions.html" class="btn btn--white btn--lg">Start Application →</a>
+          <a href="campus.html" class="btn btn--outline-white btn--lg">Schedule a Tour</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="grid grid-4 footer__grid">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Suffa Education School - Home">
+            <img src="assets/images/logo.svg" alt="" width="48" height="48">
+            <span>Suffa Education</span>
+          </a>
+          <p class="footer__tagline">Building confident learners, responsible citizens and brighter futures.</p>
+          <div class="footer__social flex gap-4" style="margin-top: var(--space-6);">
+            <a href="#" class="footer__social-link" aria-label="Facebook"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="Instagram"><svg class="icon icon--md" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.54.46 8.54.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="WhatsApp"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M22.47 11.45A10 10 0 0 0 12 2C6.48 2 2 6.48 2 12a10 10 0 0 0 2.12 6.27L3 22l6.13-2.13a10 10 0 0 0 7.01 1.17A10 10 0 0 0 22 12c0-2.61-1.11-5.01-2.95-6.81z"/><path d="M16 15a2 2 0 0 1-2 2H9a2 2 0 0 1-1.73-3l4-5a2 2 0 0 1 3.46 0l4 5a2 2 0 0 1 0 3z"/></svg></a>
+          </div>
+        </div>
+
+        <!-- School Links -->
+        <nav class="footer__nav" aria-label="School links">
+          <h3 class="footer__heading">School</h3>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="academics.html" class="footer__link">Academics</a></li>
+            <li><a href="admissions.html" class="footer__link">Admissions</a></li>
+            <li><a href="campus.html" class="footer__link">Campus & Facilities</a></li>
+          </ul>
+        </nav>
+
+        <!-- Resources Links -->
+        <nav class="footer__nav" aria-label="Resources">
+          <h3 class="footer__heading">Resources</h3>
+          <ul class="footer__links">
+            <li><a href="news.html" class="footer__link">News & Events</a></li>
+            <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+            <li><a href="faq.html" class="footer__link">FAQ</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contact Info -->
+        <div class="footer__contact">
+          <h3 class="footer__heading">Contact Us</h3>
+          <address class="footer__address">
+            <p class="footer__address-line flex gap-3">
+              <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>123 Education Boulevard, Learning City, LC 12345</span>
+            </p>
+            <p class="footer__address-line flex gap-3">
+              <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span><a href="tel:+1234567890" class="footer__link">+1 (234) 567-890</a></span>
+            </p>
+            <p class="footer__address-line flex gap-3">
+              <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span><a href="mailto:info@suffaeducation.edu" class="footer__link">info@suffaeducation.edu</a></span>
+            </p>
+            <p class="footer__address-line flex gap-3">
+              <svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Mon–Fri: 8:00 AM – 4:00 PM</span>
+            </p>
+          </address>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Suffa Education School. All Rights Reserved.</p>
+        <nav class="footer__legal" aria-label="Legal links">
+          <a href="#" class="footer__legal-link">Privacy Policy</a>
+          <a href="#" class="footer__legal-link">Terms & Conditions</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

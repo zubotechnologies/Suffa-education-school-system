@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FAQ at Suffa Education School — Answers to common questions about admissions, academics, programs, and more.">
+  <title>FAQ | Suffa Education School</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       HEADER
+       ========================================================================= -->
+  <header class="header" role="banner">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="Suffa Education School - Home">
+        <img src="assets/images/logo.svg" alt="Suffa Education School logo" class="header__logo-image">
+        <span class="header__logo-text">Suffa Education</span>
+      </a>
+      <nav class="header__nav nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About Us</a></li>
+          <li><a href="academics.html" class="nav__link">Academics</a></li>
+          <li><a href="admissions.html" class="nav__link">Admissions</a></li>
+          <li><a href="faculty.html" class="nav__link">Faculty</a></li>
+          <li><a href="campus.html" class="nav__link">Campus & Facilities</a></li>
+          <li><a href="student-life.html" class="nav__link">Student Life</a></li>
+          <li><a href="news.html" class="nav__link">News & Events</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="contact.html" class="btn btn--secondary btn--sm header__contact">Contact</a>
+        <a href="admissions.html" class="btn btn--primary btn--sm header__apply">Apply Now</a>
+        <button class="header__profile" aria-label="User profile">
+          <svg class="icon icon--md" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M12 14c-5 0-7 3-7 4v2h14v-2c0-1-2-4-7-4z"/></svg>
+        </button>
+      </div>
+      <button class="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span class="mobile-menu-btn__line"></span>
+        <span class="mobile-menu-btn__line"></span>
+        <span class="mobile-menu-btn__line"></span>
+      </button>
+    </div>
+    <div class="mobile-menu-overlay" aria-hidden="true"></div>
+    <nav class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+      <ul class="mobile-menu__list">
+        <li><a href="index.html" class="mobile-menu__link">Home</a></li>
+        <li><a href="about.html" class="mobile-menu__link">About Us</a></li>
+        <li><a href="academics.html" class="mobile-menu__link">Academics</a></li>
+        <li><a href="admissions.html" class="mobile-menu__link">Admissions</a></li>
+        <li><a href="faculty.html" class="mobile-menu__link">Faculty</a></li>
+        <li><a href="campus.html" class="mobile-menu__link">Campus & Facilities</a></li>
+        <li><a href="student-life.html" class="mobile-menu__link">Student Life</a></li>
+        <li><a href="news.html" class="mobile-menu__link">News & Events</a></li>
+        <li><a href="gallery.html" class="mobile-menu__link">Gallery</a></li>
+        <li><a href="contact.html" class="mobile-menu__link">Contact</a></li>
+        <li><a href="faq.html" class="mobile-menu__link">FAQ</a></li>
+      </ul>
+      <div class="mobile-menu__actions">
+        <a href="contact.html" class="btn btn--secondary btn--lg mobile-menu__contact">Contact Us</a>
+        <a href="admissions.html" class="btn btn--primary btn--lg mobile-menu__apply">Apply Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" role="main">
+    <!-- =========================================================================
+         HERO / INTRO
+         ========================================================================= -->
+    <section class="section section--alt page-hero" aria-labelledby="faq-hero-title">
+      <div class="container">
+        <div class="page-hero__content reveal" style="text-align: center; max-width: 800px; margin: 0 auto;">
+          <span class="eyebrow">FREQUENTLY ASKED</span>
+          <h1 id="faq-hero-title" class="page-hero__heading">Frequently Asked Questions</h1>
+          <p class="lead page-hero__text">Quick answers to common questions. Can't find what you're looking for? <a href="contact.html" style="color: var(--color-accent); font-weight: 600;">Contact us</a> directly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         ACCORDION FAQ
+         ========================================================================= -->
+    <section class="section section--primary" aria-labelledby="faq-list-title">
+      <div class="container">
+        <div class="faq__header reveal" style="text-align: center; margin-bottom: var(--space-12);">
+          <h2 id="faq-list-title" class="faq__heading">Common Questions</h2>
+        </div>
+
+        <div class="faq__list" style="max-width: 800px; margin: 0 auto;">
+          <!-- FAQ 1 -->
+          <article class="accordion reveal stagger-1">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-1">
+              <span class="accordion__question">What grades does Suffa Education School offer?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-1" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">We offer a complete continuum from Early Years (ages 3–5) through Primary School (Grades 1–5) to Secondary School (Grades 6–12). Our curriculum is designed as a seamless journey where each stage builds intentionally on the previous one.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 2 -->
+          <article class="accordion reveal stagger-2">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-2">
+              <span class="accordion__question">How can I apply for admission?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-2" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">The admissions process begins with an online inquiry form on our <a href="admissions.html" style="color: var(--color-accent); font-weight: 600;">Admissions page</a>. After submitting an inquiry, our team will contact you to schedule a campus tour and guide you through the assessment and enrollment steps. Applications for the following academic year typically open in January.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 3 -->
+          <article class="accordion reveal stagger-3">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-3">
+              <span class="accordion__question">What documents are required for application?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-3" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">Required documents include: student identification (birth certificate or passport), academic records from the previous two years, current immunization and health forms, and proof of residence. Additional documents may be requested based on grade level. See our <a href="admissions.html" style="color: var(--color-accent); font-weight: 600;">Admissions page</a> for a complete checklist.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 4 -->
+          <article class="accordion reveal stagger-4">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-4">
+              <span class="accordion__question">Does the school provide extracurricular activities?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-4" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">Yes, we offer 40+ student-led clubs and activities including athletics (15+ varsity teams), visual and performing arts, robotics, debate, Model UN, environmental action, coding, journalism, and service-learning programs. All students are encouraged to participate in at least one extracurricular activity each semester.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 5 -->
+          <article class="accordion reveal stagger-5">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-5">
+              <span class="accordion__question">How can parents contact the school?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-5" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">Parents can reach us by phone at <a href="tel:+1234567890" style="color: var(--color-accent); font-weight: 600;">+1 (234) 567-890</a>, email at <a href="mailto:info@suffaeducation.edu" style="color: var(--color-accent); font-weight: 600;">info@suffaeducation.edu</a>, or through the contact form on our <a href="contact.html" style="color: var(--color-accent); font-weight: 600;">Contact page</a>. Our office hours are Monday–Friday, 8:00 AM – 4:00 PM. For urgent matters outside office hours, an emergency contact line is available.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 6 -->
+          <article class="accordion reveal stagger-6">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-6">
+              <span class="accordion__question">What is the student-to-teacher ratio?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-6" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">Our average student-to-teacher ratio is 12:1, with Early Years classes maintaining a 8:1 ratio. This ensures personalized attention and allows our educators to truly know each student's strengths, challenges, and learning style.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 7 -->
+          <article class="accordion reveal stagger-7">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-7">
+              <span class="accordion__question">Is financial aid available?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-7" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">Yes, we offer need-based financial aid to qualified families. Approximately 25% of our student body receives some form of assistance. Applications for financial aid are processed separately from admissions and are kept strictly confidential. Contact our admissions office for application deadlines and requirements.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 8 -->
+          <article class="accordion reveal stagger-8">
+            <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-panel-8">
+              <span class="accordion__question">What safety measures are in place on campus?</span>
+              <svg class="accordion__icon icon icon--md" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="accordion__panel" id="faq-panel-8" role="region" aria-hidden="true" style="max-height: 0; overflow: hidden; transition: max-height var(--transition-base);">
+              <p class="accordion__answer">Our campus features 24/7 surveillance, secured entry points with visitor management, on-site security personnel, and a fully staffed medical center with registered nurses. We conduct regular safety drills, maintain comprehensive emergency protocols, and partner with local law enforcement and healthcare providers for rapid response.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Still have questions -->
+        <div class="faq__cta reveal" style="text-align: center; margin-top: var(--space-16);">
+          <h3 class="faq__cta-heading" style="font-family: var(--font-heading); font-size: var(--font-size-2xl); margin-bottom: var(--space-3);">Still Have Questions?</h3>
+          <p class="lead" style="margin-bottom: var(--space-6);">Our admissions team is here to help with any other questions you may have.</p>
+          <a href="contact.html" class="btn btn--primary btn--lg">Contact Us →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="grid grid-4 footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Suffa Education School - Home">
+            <img src="assets/images/logo.svg" alt="" width="48" height="48">
+            <span>Suffa Education</span>
+          </a>
+          <p class="footer__tagline">Building confident learners, responsible citizens and brighter futures.</p>
+          <div class="footer__social flex gap-4" style="margin-top: var(--space-6);">
+            <a href="#" class="footer__social-link" aria-label="Facebook"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="Instagram"><svg class="icon icon--md" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.54.46 8.54.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="WhatsApp"><svg class="icon icon--md" viewBox="0 0 24 24"><path d="M22.47 11.45A10 10 0 0 0 12 2C6.48 2 2 6.48 2 12a10 10 0 0 0 2.12 6.27L3 22l6.13-2.13a10 10 0 0 0 7.01 1.17A10 10 0 0 0 22 12c0-2.61-1.11-5.01-2.95-6.81z"/><path d="M16 15a2 2 0 0 1-2 2H9a2 2 0 0 1-1.73-3l4-5a2 2 0 0 1 3.46 0l4 5a2 2 0 0 1 0 3z"/></svg></a>
+          </div>
+        </div>
+        <nav class="footer__nav" aria-label="School links">
+          <h3 class="footer__heading">School</h3>
+          <ul class="footer__links">
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="academics.html" class="footer__link">Academics</a></li>
+            <li><a href="admissions.html" class="footer__link">Admissions</a></li>
+            <li><a href="campus.html" class="footer__link">Campus & Facilities</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav" aria-label="Resources">
+          <h3 class="footer__heading">Resources</h3>
+          <ul class="footer__links">
+            <li><a href="news.html" class="footer__link">News & Events</a></li>
+            <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+            <li><a href="faq.html" class="footer__link">FAQ</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer__contact">
+          <h3 class="footer__heading">Contact Us</h3>
+          <address class="footer__address">
+            <p class="footer__address-line flex gap-3"><svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>123 Education Boulevard, Learning City, LC 12345</span></p>
+            <p class="footer__address-line flex gap-3"><svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><a href="tel:+1234567890" class="footer__link">+1 (234) 567-890</a></span></p>
+            <p class="footer__address-line flex gap-3"><svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span><a href="mailto:info@suffaeducation.edu" class="footer__link">info@suffaeducation.edu</a></span></p>
+            <p class="footer__address-line flex gap-3"><svg class="icon icon--md flex-shrink-0 text-gold" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Mon–Fri: 8:00 AM – 4:00 PM</span></p>
+          </address>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Suffa Education School. All Rights Reserved.</p>
+        <nav class="footer__legal" aria-label="Legal links">
+          <a href="#" class="footer__legal-link">Privacy Policy</a>
+          <a href="#" class="footer__legal-link">Terms & Conditions</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
